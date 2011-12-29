@@ -49,5 +49,5 @@ class ClearCacheShell extends AppShell {
 		if (!empty($arr)) {
 			$this->_deletedFiles[$dir] = $arr;
 		}
-   }
+	}
 }
